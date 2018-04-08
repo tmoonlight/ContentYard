@@ -1,0 +1,710 @@
+﻿{
+  "ProviderId": "Microsoft.VisualStudio.ConnectedService.Wcf",
+  "Version": "15.0.11207.1076",
+  "GettingStartedDocument": {
+    "Uri": "https://go.microsoft.com/fwlink/?linkid=858517"
+  },
+  "ExtendedData": {
+    "Uri": "http://119.135.176.146:9981/erpws/SealWebService.asmx",
+    "Namespace": "SealWebServiceQY",
+    "ServiceDescriptorFactory": null,
+    "SelectedAccessLevelForGeneratedClass": "Public",
+    "GenerateMessageContract": false,
+    "CollectionTypeReference": {
+      "Item1": "System.Array",
+      "Item2": "System.Runtime.dll"
+    },
+    "DictionaryCollectionTypeReference": {
+      "Item1": "System.Collections.Generic.Dictionary`2",
+      "Item2": "System.Collections.dll"
+    },
+    "ReuseTypesinReferencedAssemblies": true,
+    "ReuseTypesinAllReferencedAssemblies": true,
+    "ReuseTypesinSpecifiedReferencedAssemblies": false,
+    "CheckedReferencedAssemblies": [
+      {
+        "FullName": "AutoMapper",
+        "IsChecked": false,
+        "Name": "AutoMapper"
+      },
+      {
+        "FullName": "D:\\3300NewProject3\\branches\\CY_System.DomainStandard\\CY_System.DomainStandard.csproj",
+        "IsChecked": false,
+        "Name": "CY_System.DomainStandard"
+      },
+      {
+        "FullName": "log4net",
+        "IsChecked": false,
+        "Name": "log4net"
+      },
+      {
+        "FullName": "Microsoft.CSharp",
+        "IsChecked": false,
+        "Name": "Microsoft.CSharp"
+      },
+      {
+        "FullName": "Microsoft.Extensions.Configuration",
+        "IsChecked": false,
+        "Name": "Microsoft.Extensions.Configuration"
+      },
+      {
+        "FullName": "Microsoft.Extensions.Configuration.Abstractions",
+        "IsChecked": false,
+        "Name": "Microsoft.Extensions.Configuration.Abstractions"
+      },
+      {
+        "FullName": "Microsoft.Extensions.Configuration.EnvironmentVariables",
+        "IsChecked": false,
+        "Name": "Microsoft.Extensions.Configuration.EnvironmentVariables"
+      },
+      {
+        "FullName": "Microsoft.Extensions.Configuration.FileExtensions",
+        "IsChecked": false,
+        "Name": "Microsoft.Extensions.Configuration.FileExtensions"
+      },
+      {
+        "FullName": "Microsoft.Extensions.Configuration.Json",
+        "IsChecked": false,
+        "Name": "Microsoft.Extensions.Configuration.Json"
+      },
+      {
+        "FullName": "Microsoft.Extensions.FileProviders.Abstractions",
+        "IsChecked": false,
+        "Name": "Microsoft.Extensions.FileProviders.Abstractions"
+      },
+      {
+        "FullName": "Microsoft.Extensions.FileProviders.Physical",
+        "IsChecked": false,
+        "Name": "Microsoft.Extensions.FileProviders.Physical"
+      },
+      {
+        "FullName": "Microsoft.Extensions.FileSystemGlobbing",
+        "IsChecked": false,
+        "Name": "Microsoft.Extensions.FileSystemGlobbing"
+      },
+      {
+        "FullName": "Microsoft.Extensions.Primitives",
+        "IsChecked": false,
+        "Name": "Microsoft.Extensions.Primitives"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\Microsoft.Win32.Primitives.dll",
+        "IsChecked": false,
+        "Name": "Microsoft.Win32.Primitives"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\mscorlib.dll",
+        "IsChecked": false,
+        "Name": "mscorlib"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\netstandard.dll",
+        "IsChecked": false,
+        "Name": "netstandard"
+      },
+      {
+        "FullName": "Newtonsoft.Json",
+        "IsChecked": false,
+        "Name": "Newtonsoft.Json"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.dll",
+        "IsChecked": false,
+        "Name": "System"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.AppContext.dll",
+        "IsChecked": false,
+        "Name": "System.AppContext"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Collections.Concurrent.dll",
+        "IsChecked": false,
+        "Name": "System.Collections.Concurrent"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Collections.NonGeneric.dll",
+        "IsChecked": false,
+        "Name": "System.Collections.NonGeneric"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Collections.Specialized.dll",
+        "IsChecked": false,
+        "Name": "System.Collections.Specialized"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.ComponentModel.dll",
+        "IsChecked": false,
+        "Name": "System.ComponentModel"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.ComponentModel.Composition.dll",
+        "IsChecked": false,
+        "Name": "System.ComponentModel.Composition"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.ComponentModel.EventBasedAsync.dll",
+        "IsChecked": false,
+        "Name": "System.ComponentModel.EventBasedAsync"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.ComponentModel.Primitives.dll",
+        "IsChecked": false,
+        "Name": "System.ComponentModel.Primitives"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.ComponentModel.TypeConverter.dll",
+        "IsChecked": false,
+        "Name": "System.ComponentModel.TypeConverter"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Console.dll",
+        "IsChecked": false,
+        "Name": "System.Console"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Core.dll",
+        "IsChecked": false,
+        "Name": "System.Core"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Data.dll",
+        "IsChecked": false,
+        "Name": "System.Data"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Data.Common.dll",
+        "IsChecked": false,
+        "Name": "System.Data.Common"
+      },
+      {
+        "FullName": "System.Data.SqlClient",
+        "IsChecked": false,
+        "Name": "System.Data.SqlClient"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Diagnostics.Contracts.dll",
+        "IsChecked": false,
+        "Name": "System.Diagnostics.Contracts"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Diagnostics.Debug.dll",
+        "IsChecked": false,
+        "Name": "System.Diagnostics.Debug"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Diagnostics.FileVersionInfo.dll",
+        "IsChecked": false,
+        "Name": "System.Diagnostics.FileVersionInfo"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Diagnostics.Process.dll",
+        "IsChecked": false,
+        "Name": "System.Diagnostics.Process"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Diagnostics.StackTrace.dll",
+        "IsChecked": false,
+        "Name": "System.Diagnostics.StackTrace"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Diagnostics.TextWriterTraceListener.dll",
+        "IsChecked": false,
+        "Name": "System.Diagnostics.TextWriterTraceListener"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Diagnostics.Tools.dll",
+        "IsChecked": false,
+        "Name": "System.Diagnostics.Tools"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Diagnostics.TraceSource.dll",
+        "IsChecked": false,
+        "Name": "System.Diagnostics.TraceSource"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Diagnostics.Tracing.dll",
+        "IsChecked": false,
+        "Name": "System.Diagnostics.Tracing"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Drawing.dll",
+        "IsChecked": false,
+        "Name": "System.Drawing"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Drawing.Primitives.dll",
+        "IsChecked": false,
+        "Name": "System.Drawing.Primitives"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Dynamic.Runtime.dll",
+        "IsChecked": false,
+        "Name": "System.Dynamic.Runtime"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Globalization.dll",
+        "IsChecked": false,
+        "Name": "System.Globalization"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Globalization.Calendars.dll",
+        "IsChecked": false,
+        "Name": "System.Globalization.Calendars"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Globalization.Extensions.dll",
+        "IsChecked": false,
+        "Name": "System.Globalization.Extensions"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.IO.dll",
+        "IsChecked": false,
+        "Name": "System.IO"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.IO.Compression.dll",
+        "IsChecked": false,
+        "Name": "System.IO.Compression"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.IO.Compression.FileSystem.dll",
+        "IsChecked": false,
+        "Name": "System.IO.Compression.FileSystem"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.IO.Compression.ZipFile.dll",
+        "IsChecked": false,
+        "Name": "System.IO.Compression.ZipFile"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.IO.FileSystem.dll",
+        "IsChecked": false,
+        "Name": "System.IO.FileSystem"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.IO.FileSystem.DriveInfo.dll",
+        "IsChecked": false,
+        "Name": "System.IO.FileSystem.DriveInfo"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.IO.FileSystem.Primitives.dll",
+        "IsChecked": false,
+        "Name": "System.IO.FileSystem.Primitives"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.IO.FileSystem.Watcher.dll",
+        "IsChecked": false,
+        "Name": "System.IO.FileSystem.Watcher"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.IO.IsolatedStorage.dll",
+        "IsChecked": false,
+        "Name": "System.IO.IsolatedStorage"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.IO.MemoryMappedFiles.dll",
+        "IsChecked": false,
+        "Name": "System.IO.MemoryMappedFiles"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.IO.Pipes.dll",
+        "IsChecked": false,
+        "Name": "System.IO.Pipes"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.IO.UnmanagedMemoryStream.dll",
+        "IsChecked": false,
+        "Name": "System.IO.UnmanagedMemoryStream"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Linq.dll",
+        "IsChecked": false,
+        "Name": "System.Linq"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Linq.Expressions.dll",
+        "IsChecked": false,
+        "Name": "System.Linq.Expressions"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Linq.Parallel.dll",
+        "IsChecked": false,
+        "Name": "System.Linq.Parallel"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Linq.Queryable.dll",
+        "IsChecked": false,
+        "Name": "System.Linq.Queryable"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Net.dll",
+        "IsChecked": false,
+        "Name": "System.Net"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Net.Http.dll",
+        "IsChecked": false,
+        "Name": "System.Net.Http"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Net.NameResolution.dll",
+        "IsChecked": false,
+        "Name": "System.Net.NameResolution"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Net.NetworkInformation.dll",
+        "IsChecked": false,
+        "Name": "System.Net.NetworkInformation"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Net.Ping.dll",
+        "IsChecked": false,
+        "Name": "System.Net.Ping"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Net.Primitives.dll",
+        "IsChecked": false,
+        "Name": "System.Net.Primitives"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Net.Requests.dll",
+        "IsChecked": false,
+        "Name": "System.Net.Requests"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Net.Security.dll",
+        "IsChecked": false,
+        "Name": "System.Net.Security"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Net.Sockets.dll",
+        "IsChecked": false,
+        "Name": "System.Net.Sockets"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Net.WebHeaderCollection.dll",
+        "IsChecked": false,
+        "Name": "System.Net.WebHeaderCollection"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Net.WebSockets.dll",
+        "IsChecked": false,
+        "Name": "System.Net.WebSockets"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Net.WebSockets.Client.dll",
+        "IsChecked": false,
+        "Name": "System.Net.WebSockets.Client"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Numerics.dll",
+        "IsChecked": false,
+        "Name": "System.Numerics"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.ObjectModel.dll",
+        "IsChecked": false,
+        "Name": "System.ObjectModel"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Reflection.dll",
+        "IsChecked": false,
+        "Name": "System.Reflection"
+      },
+      {
+        "FullName": "System.Reflection.Emit",
+        "IsChecked": false,
+        "Name": "System.Reflection.Emit"
+      },
+      {
+        "FullName": "System.Reflection.Emit.ILGeneration",
+        "IsChecked": false,
+        "Name": "System.Reflection.Emit.ILGeneration"
+      },
+      {
+        "FullName": "System.Reflection.Emit.Lightweight",
+        "IsChecked": false,
+        "Name": "System.Reflection.Emit.Lightweight"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Reflection.Extensions.dll",
+        "IsChecked": false,
+        "Name": "System.Reflection.Extensions"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Reflection.Primitives.dll",
+        "IsChecked": false,
+        "Name": "System.Reflection.Primitives"
+      },
+      {
+        "FullName": "System.Reflection.TypeExtensions",
+        "IsChecked": false,
+        "Name": "System.Reflection.TypeExtensions"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Resources.Reader.dll",
+        "IsChecked": false,
+        "Name": "System.Resources.Reader"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Resources.ResourceManager.dll",
+        "IsChecked": false,
+        "Name": "System.Resources.ResourceManager"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Resources.Writer.dll",
+        "IsChecked": false,
+        "Name": "System.Resources.Writer"
+      },
+      {
+        "FullName": "System.Runtime.CompilerServices.Unsafe",
+        "IsChecked": false,
+        "Name": "System.Runtime.CompilerServices.Unsafe"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Runtime.CompilerServices.VisualC.dll",
+        "IsChecked": false,
+        "Name": "System.Runtime.CompilerServices.VisualC"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Runtime.Extensions.dll",
+        "IsChecked": false,
+        "Name": "System.Runtime.Extensions"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Runtime.Handles.dll",
+        "IsChecked": false,
+        "Name": "System.Runtime.Handles"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Runtime.InteropServices.dll",
+        "IsChecked": false,
+        "Name": "System.Runtime.InteropServices"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Runtime.InteropServices.RuntimeInformation.dll",
+        "IsChecked": false,
+        "Name": "System.Runtime.InteropServices.RuntimeInformation"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Runtime.Numerics.dll",
+        "IsChecked": false,
+        "Name": "System.Runtime.Numerics"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Runtime.Serialization.dll",
+        "IsChecked": false,
+        "Name": "System.Runtime.Serialization"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Runtime.Serialization.Formatters.dll",
+        "IsChecked": false,
+        "Name": "System.Runtime.Serialization.Formatters"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Runtime.Serialization.Json.dll",
+        "IsChecked": false,
+        "Name": "System.Runtime.Serialization.Json"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Runtime.Serialization.Primitives.dll",
+        "IsChecked": false,
+        "Name": "System.Runtime.Serialization.Primitives"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Runtime.Serialization.Xml.dll",
+        "IsChecked": false,
+        "Name": "System.Runtime.Serialization.Xml"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Security.Claims.dll",
+        "IsChecked": false,
+        "Name": "System.Security.Claims"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Security.Cryptography.Algorithms.dll",
+        "IsChecked": false,
+        "Name": "System.Security.Cryptography.Algorithms"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Security.Cryptography.Csp.dll",
+        "IsChecked": false,
+        "Name": "System.Security.Cryptography.Csp"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Security.Cryptography.Encoding.dll",
+        "IsChecked": false,
+        "Name": "System.Security.Cryptography.Encoding"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Security.Cryptography.Primitives.dll",
+        "IsChecked": false,
+        "Name": "System.Security.Cryptography.Primitives"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Security.Cryptography.X509Certificates.dll",
+        "IsChecked": false,
+        "Name": "System.Security.Cryptography.X509Certificates"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Security.Principal.dll",
+        "IsChecked": false,
+        "Name": "System.Security.Principal"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Security.SecureString.dll",
+        "IsChecked": false,
+        "Name": "System.Security.SecureString"
+      },
+      {
+        "FullName": "System.ServiceModel.Duplex",
+        "IsChecked": false,
+        "Name": "System.ServiceModel.Duplex"
+      },
+      {
+        "FullName": "System.ServiceModel.Http",
+        "IsChecked": false,
+        "Name": "System.ServiceModel.Http"
+      },
+      {
+        "FullName": "System.ServiceModel.NetTcp",
+        "IsChecked": false,
+        "Name": "System.ServiceModel.NetTcp"
+      },
+      {
+        "FullName": "System.ServiceModel.Primitives",
+        "IsChecked": false,
+        "Name": "System.ServiceModel.Primitives"
+      },
+      {
+        "FullName": "System.ServiceModel.Security",
+        "IsChecked": false,
+        "Name": "System.ServiceModel.Security"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.ServiceModel.Web.dll",
+        "IsChecked": false,
+        "Name": "System.ServiceModel.Web"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Text.Encoding.dll",
+        "IsChecked": false,
+        "Name": "System.Text.Encoding"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Text.Encoding.Extensions.dll",
+        "IsChecked": false,
+        "Name": "System.Text.Encoding.Extensions"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Text.RegularExpressions.dll",
+        "IsChecked": false,
+        "Name": "System.Text.RegularExpressions"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Threading.dll",
+        "IsChecked": false,
+        "Name": "System.Threading"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Threading.Overlapped.dll",
+        "IsChecked": false,
+        "Name": "System.Threading.Overlapped"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Threading.Tasks.dll",
+        "IsChecked": false,
+        "Name": "System.Threading.Tasks"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Threading.Tasks.Parallel.dll",
+        "IsChecked": false,
+        "Name": "System.Threading.Tasks.Parallel"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Threading.Thread.dll",
+        "IsChecked": false,
+        "Name": "System.Threading.Thread"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Threading.ThreadPool.dll",
+        "IsChecked": false,
+        "Name": "System.Threading.ThreadPool"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Threading.Timer.dll",
+        "IsChecked": false,
+        "Name": "System.Threading.Timer"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Transactions.dll",
+        "IsChecked": false,
+        "Name": "System.Transactions"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.ValueTuple.dll",
+        "IsChecked": false,
+        "Name": "System.ValueTuple"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Web.dll",
+        "IsChecked": false,
+        "Name": "System.Web"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Windows.dll",
+        "IsChecked": false,
+        "Name": "System.Windows"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Xml.dll",
+        "IsChecked": false,
+        "Name": "System.Xml"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Xml.Linq.dll",
+        "IsChecked": false,
+        "Name": "System.Xml.Linq"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Xml.ReaderWriter.dll",
+        "IsChecked": false,
+        "Name": "System.Xml.ReaderWriter"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Xml.Serialization.dll",
+        "IsChecked": false,
+        "Name": "System.Xml.Serialization"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Xml.XDocument.dll",
+        "IsChecked": false,
+        "Name": "System.Xml.XDocument"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Xml.XmlDocument.dll",
+        "IsChecked": false,
+        "Name": "System.Xml.XmlDocument"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Xml.XmlSerializer.dll",
+        "IsChecked": false,
+        "Name": "System.Xml.XmlSerializer"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Xml.XPath.dll",
+        "IsChecked": false,
+        "Name": "System.Xml.XPath"
+      },
+      {
+        "FullName": "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.1\\build\\netstandard2.0\\ref\\System.Xml.XPath.XDocument.dll",
+        "IsChecked": false,
+        "Name": "System.Xml.XPath.XDocument"
+      }
+    ],
+    "InstanceId": null,
+    "Name": "SealWebServiceQY",
+    "Metadata": {}
+  }
+}
