@@ -11,7 +11,7 @@ namespace CY_System.WebApp.Pages
     {
         public void OnGet()
         {
-
+            
         }
     }
 }

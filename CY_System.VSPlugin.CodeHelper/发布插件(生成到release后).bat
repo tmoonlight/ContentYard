@@ -1,0 +1,4 @@
+powershell 
+pause
+
+dictionaryinfo
