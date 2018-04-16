@@ -16,9 +16,9 @@ namespace CY_System.Infrastructure
         SUCCESS = 1, //成功
         [Description("访问失败")]
         FAIL = 400,//失败
-        [Description("签名错误")]
+        [Description("未认证/签名错误")]
         UNAUTHORIZED = 401, //未认证（签名错误）
-        [Description("此接口不存在")]
+        [Description("资源不存在")]
         NOT_FOUND = 404, //接口不存在
         [Description("系统繁忙,请稍后再试")]
         INTERNAL_SERVER_ERROR = 500, //服务器内部错误

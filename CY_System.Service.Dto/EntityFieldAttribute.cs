@@ -14,6 +14,7 @@ namespace CY_System.Service.Dto
     {
         /// <summary>
         /// 标识为主键
+        /// 
         /// </summary>
         public bool IsKey { get; set; }
         /// <summary>
