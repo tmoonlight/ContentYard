@@ -49,6 +49,7 @@
     <ProjectReference Include="..\CY_System.DomainStandard\CY_System.DomainStandard.csproj" />
     <ProjectReference Include="..\CY_System.Infrastructure\CY_System.Infrastructure.csproj" />
     <ProjectReference Include="..\CY_System.Service.Dto\CY_System.Service.Dto.csproj" />
+    <ProjectReference Include="..\CY_System.Service\CY_System.Service.csproj" />
   </ItemGroup>
 <!--swagger关键配置:发布时将cyyz.api.xml移动到发布目录-->
   <Target Name="PrepublishScript" BeforeTargets="PrepareForPublish">

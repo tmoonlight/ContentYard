@@ -42,9 +42,9 @@ namespace CY_System.Service.Controllers
 
         /// <summary>
         /// 获取系统配置
-        /// </summary>
         /// <param name="key">配置名</param>
         /// <returns></returns>
+        /// </summary>
         [HttpGet]
         [Route("GetSystemConfiguration")]
         public Result GetSystemConfiguration(string key)

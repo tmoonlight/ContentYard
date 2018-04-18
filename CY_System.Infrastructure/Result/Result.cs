@@ -30,33 +30,47 @@ namespace CY_System.Infrastructure
 /// <summary>
 /// 公共响应结果
 /// </summary>
-public class Result
+public class Result : Result<object>
+{
+
+}
+
+/// <summary>
+/// 公共响应结果(泛型)
+/// </summary>
+public class Result<T>
 {
 
     private static String DEFAULT_SUCCESS_MESSAGE = "SUCCESS";
 
     private int code;
     private String message;
-    private Object data;
+    private T data;
 
     public int Code { get => code; set => code = value; }
     public string Message { get => message; set => message = value; }
-    public object Data { get => data; set => data = value; }
+    public T Data { get => data; set => data = value; }
 
     public Result()
     {
     }
 
-    public Result(ResultCode resultCode,object data = null)
+    public Result(ResultCode resultCode)
+    {
+        this.Code = (int)resultCode;
+        this.Message = GetDescription(resultCode);
+    }
+
+    public Result(ResultCode resultCode, T data)
     {
         this.Code = (int)resultCode;
         this.Message = GetDescription(resultCode);
         this.Data = data;
     }
 
-    public static Result Success()
+    public static Result<T> Success()
     {
-        return new Result()
+        return new Result<T>()
         {
             Code = (int)ResultCode.SUCCESS,
             Message = DEFAULT_SUCCESS_MESSAGE
@@ -71,7 +85,18 @@ public class Result
             Message = DEFAULT_SUCCESS_MESSAGE,
             Data = data
         };
-      
+
+    }
+
+    public static Result<T> Success(T data)
+    {
+        return new Result<T>()
+        {
+            Code = (int)ResultCode.SUCCESS,
+            Message = DEFAULT_SUCCESS_MESSAGE,
+            Data = data
+        };
+
     }
 
     public static Result Fail(String message)

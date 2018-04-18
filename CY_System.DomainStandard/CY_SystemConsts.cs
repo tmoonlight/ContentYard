@@ -21,11 +21,8 @@
         public const string ConnectionString_conn = "conn";
         public const string ConnectionString_conn_ih = "conn_ih";
         public const string ConnectionString_conn_ca = "conn_ca";
-        public const string ConnectionString_connga = "connga";
-        public const string ConnectionString_connga1 = "connga1";
-        public const string ConnectionString_connChip = "connChip";
         public const string ConnectionString_connLog = "connLog";
-        public const string ConnectionString_connAutoUpdate = "connAutoUpdate";
+
         //public const bool MultiTenancyEnabled = true;
         #endregion
 

@@ -8,11 +8,11 @@ using System.Data;
 namespace CY_System.Infrastructure.Repository
 {
     /// <summary>
-    /// Part1_rdrecords11仓库,该段代码由代码生成器自动生成
+    /// CYUsers仓库,该段代码由代码生成器自动生成
     /// 作者: C
-    /// 时间: 2018-01-25 11:02:52
+    /// 时间: 2018-04-18 15:53:40
     /// </summary>
-    public class Part1_rdrecords11Repository : BaseRepository<Part1_rdrecords11Info>
+    public class CYUsersRepository : BaseRepository<CYUsersInfo>
     {
         //ToDo:具体的对数据库实现的方法写在这里
 

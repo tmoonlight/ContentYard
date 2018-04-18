@@ -6,6 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Repository\CA\**" />
+    <EmbeddedResource Remove="Repository\CA\**" />
+    <None Remove="Repository\CA\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Remove="Repository\MySqlRepository_CA.cs" />
     <Compile Remove="Repository\SqlRepository.cs" />
   </ItemGroup>
@@ -39,9 +45,6 @@
     <PackageReference Include="System.Data.SqlClient" Version="4.4.0" />
     <PackageReference Include="System.Reflection.Emit.Lightweight" Version="4.3.0" />
     <PackageReference Include="System.Reflection.TypeExtensions" Version="4.4.0" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Repository\CA\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CY_System.DomainStandard\CY_System.DomainStandard.csproj" />
