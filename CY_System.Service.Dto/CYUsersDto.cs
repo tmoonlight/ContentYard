@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.Text;
@@ -56,6 +57,7 @@ namespace CY_System.Service.Dto
         /// <summary>
         /// 邮件
         /// <summary>
+        [Display(Name = "Email")]
         public string EmailAddress { get; set; }
 
         /// <summary>
@@ -116,6 +118,7 @@ namespace CY_System.Service.Dto
         /// <summary>
         /// 姓名
         /// <summary>
+        [Display(Name="姓名")]
         public string Name { get; set; }
 
         /// <summary>
@@ -131,6 +134,8 @@ namespace CY_System.Service.Dto
         /// <summary>
         /// 密码
         /// <summary>
+        [Required]
+        [Display(Name="密码")]
         public string Password { get; set; }
 
         /// <summary>
@@ -141,6 +146,7 @@ namespace CY_System.Service.Dto
         /// <summary>
         /// 电话号码
         /// <summary>
+        [Display(Name="电话号码")]
         public string PhoneNumber { get; set; }
 
         /// <summary>
@@ -156,6 +162,8 @@ namespace CY_System.Service.Dto
         /// <summary>
         /// 用户名
         /// <summary>
+        [StringLength(100)]
+        [Display(Name="用户名")]
         public string UserName { get; set; }
 
 
