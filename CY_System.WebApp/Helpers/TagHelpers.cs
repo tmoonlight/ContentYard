@@ -21,4 +21,15 @@ namespace CY_System.WebApp.Helpers
             base.Process(context, output);
         }
     }
+
+    public class EmailTagHelper : TagHelper
+    {
+        public override void Process(TagHelperContext context, TagHelperOutput output)
+        {
+            //base.Process(context, output);
+            output.TagMode = TagMode.StartTagAndEndTag;
+            output.TagName = "a";
+
+        }
+    }
 }

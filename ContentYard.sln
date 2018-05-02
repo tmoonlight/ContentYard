@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CY_System.Service.Api", "CY
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CY_System.Service", "CY_System.Service\CY_System.Service.csproj", "{CE49D20A-DAED-40A0-B961-F900756D051B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CY_System.Infrastructure.EF", "CY_System.Infrastructure.EF\CY_System.Infrastructure.EF.csproj", "{5D822429-F217-40CD-BE90-E2BCB600B651}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -156,6 +158,24 @@ Global
 		{CE49D20A-DAED-40A0-B961-F900756D051B}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{CE49D20A-DAED-40A0-B961-F900756D051B}.Release|x86.ActiveCfg = Release|Any CPU
 		{CE49D20A-DAED-40A0-B961-F900756D051B}.Release|x86.Build.0 = Release|Any CPU
+		{5D822429-F217-40CD-BE90-E2BCB600B651}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D822429-F217-40CD-BE90-E2BCB600B651}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D822429-F217-40CD-BE90-E2BCB600B651}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5D822429-F217-40CD-BE90-E2BCB600B651}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5D822429-F217-40CD-BE90-E2BCB600B651}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5D822429-F217-40CD-BE90-E2BCB600B651}.Debug|x86.Build.0 = Debug|Any CPU
+		{5D822429-F217-40CD-BE90-E2BCB600B651}.produce|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D822429-F217-40CD-BE90-E2BCB600B651}.produce|Any CPU.Build.0 = Debug|Any CPU
+		{5D822429-F217-40CD-BE90-E2BCB600B651}.produce|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{5D822429-F217-40CD-BE90-E2BCB600B651}.produce|Mixed Platforms.Build.0 = Debug|Any CPU
+		{5D822429-F217-40CD-BE90-E2BCB600B651}.produce|x86.ActiveCfg = Debug|Any CPU
+		{5D822429-F217-40CD-BE90-E2BCB600B651}.produce|x86.Build.0 = Debug|Any CPU
+		{5D822429-F217-40CD-BE90-E2BCB600B651}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D822429-F217-40CD-BE90-E2BCB600B651}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D822429-F217-40CD-BE90-E2BCB600B651}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{5D822429-F217-40CD-BE90-E2BCB600B651}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{5D822429-F217-40CD-BE90-E2BCB600B651}.Release|x86.ActiveCfg = Release|Any CPU
+		{5D822429-F217-40CD-BE90-E2BCB600B651}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

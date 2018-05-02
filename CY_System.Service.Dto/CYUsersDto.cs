@@ -118,7 +118,7 @@ namespace CY_System.Service.Dto
         /// <summary>
         /// 姓名
         /// <summary>
-        [Display(Name="姓名")]
+        [Display(Name = "姓名")]
         public string Name { get; set; }
 
         /// <summary>
@@ -134,8 +134,9 @@ namespace CY_System.Service.Dto
         /// <summary>
         /// 密码
         /// <summary>
-        [Required]
-        [Display(Name="密码")]
+        [Required(ErrorMessage = "密码不能为空")]
+        [StringLength(5,MinimumLength =3)]
+        [Display(Name = "密码")]
         public string Password { get; set; }
 
         /// <summary>
@@ -146,7 +147,7 @@ namespace CY_System.Service.Dto
         /// <summary>
         /// 电话号码
         /// <summary>
-        [Display(Name="电话号码")]
+        [Display(Name = "电话号码")]
         public string PhoneNumber { get; set; }
 
         /// <summary>
@@ -163,7 +164,7 @@ namespace CY_System.Service.Dto
         /// 用户名
         /// <summary>
         [StringLength(100)]
-        [Display(Name="用户名")]
+        [Display(Name = "用户名")]
         public string UserName { get; set; }
 
 
